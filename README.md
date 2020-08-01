@@ -121,8 +121,8 @@ A sensor which monitors the distance from the ceiling of a garbage bin to the to
 ### Elements in the data object
 * garbageBin: The asset id of a targeted garbage bin. The sensor data should be corresponded to the specific garbage bin asset information on cloud side with this id. 
 * distance: A distance from the ceiling of a garbage bin to the top of the accumulated garbages inside. The unit is cm.
-* max_depth: (FOR DEMO ONLY) Depth of each garbage bin in cm.
-* amount_rate: (FOR DEMO ONLY) Percentage of the garbage amount. 
+* max_depth: Depth of each garbage bin in cm.
+* amount_rate: Percentage of the garbage amount. 
 
 ### Examples
 ```json
