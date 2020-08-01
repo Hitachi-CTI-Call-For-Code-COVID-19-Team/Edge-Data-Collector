@@ -14,7 +14,7 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 
 # Requirements
 * LiDAR Sensor: [HLDS 3D LiDAR (ToF)](http://hlds.co.jp/product-eng/?ckattempt=1)
-    * Any HLDS 3D LiDAR will work fine. including HLS-LFOM5A which we've used.
+    * Any HLDS 3D LiDAR will work fine, including HLS-LFOM5A which we've used.
     <img src=./img/HLS-LFOM5A.jpg width=20%>
 * Edge server:
     * OS: Windows 10 (32/64-bits)
