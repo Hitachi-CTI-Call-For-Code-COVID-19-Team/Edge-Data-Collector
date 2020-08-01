@@ -1,0 +1,11 @@
+[Unit]
+Description = Garbage bin monitor service
+After = systemd-networkd-wait-online.service
+
+[Service]
+ExecStart = /usr/local/bin/garbage_bin_monitor.py -c /etc/garbage_bin_monitor/device.conf
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
