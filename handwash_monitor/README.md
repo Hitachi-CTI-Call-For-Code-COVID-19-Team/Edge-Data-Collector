@@ -1,6 +1,6 @@
 # Hand wash activity monitor with HLDS LiDAR (ToF) 
 This is a sensor data collector of a hand wash activity monitor which detects people's hand wash activities at specific washstands for COVSAFE.
-* We use HLDS LiDAR (ToF) to detect hand wash activities.
+* We use HLDS LiDAR (ToF) to detect hand wash activities and to protect one's privacy.
 * HLDS touch detection software manages all LiDARs and outputs logs including when and where people touches specific area with JSON format.
 * To gather the logs in realtime, we use Fluentd.
 * In the Fluentd, a python script will be called to normalize and send the data to [IBM Cloud Event Streams](https://www.ibm.com/cloud/event-streams).
@@ -12,6 +12,8 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 
 # Requirements
 * LiDAR Sensor: [HLDS 3D LiDAR (ToF)](http://hlds.co.jp/product-eng/?ckattempt=1)
+    * Any HLDS 3D LiDAR will work fine. But using HLS-LFOM1 is highly recommended because this looks not like cameras. So you can put them even in rest rooms regardless of one's privacy problems.
+    <img src=./img/HLS-LFOM1.jpg width=20%>
 * Edge server:
     * OS: Windows 10 (32/64-bits)
     * CPUs: Depends on the number of ToFs. HLDS says 2 LiDARs/core.

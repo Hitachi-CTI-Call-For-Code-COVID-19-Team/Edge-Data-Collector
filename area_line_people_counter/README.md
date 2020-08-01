@@ -2,7 +2,7 @@
 This is a sensor data collector which monitors and reports the number of people in the specific areas or lines to calculate congestion levels for COVSAFE.
 * We use HLDS LiDAR (ToF) to count;
   * the number of people in a specific area at a certain time.
-  * the number of people who passed a specific line
+  * the number of people who passed a specific line.
 * HLDS human tracking software manages all LiDARs and outputs logs including the number of people with CSV format.
 * To gather the logs in realtime, we use Fluentd.
 * In the Fluentd, a python script will be called to normalize and send the data to [IBM Cloud Event Streams](https://www.ibm.com/cloud/event-streams).
@@ -14,6 +14,8 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 
 # Requirements
 * LiDAR Sensor: [HLDS 3D LiDAR (ToF)](http://hlds.co.jp/product-eng/?ckattempt=1)
+    * Any HLDS 3D LiDAR will work fine. including HLS-LFOM5A which we've used.
+    <img src=./img/HLS-LFOM5A.jpg width=20%>
 * Edge server:
     * OS: Windows 10 (32/64-bits)
     * CPUs: Depends on the number of ToFs. HLDS says 2 LiDARs/core.
