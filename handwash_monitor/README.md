@@ -1,5 +1,5 @@
 # Hand wash activity monitor with HLDS LiDAR (ToF) 
-This is a sensor data collector of a hand wash activity monitor at the specific washstands for COVSAFE.
+This is a sensor data collector of a hand wash activity monitor which detects people's hand wash activities at specific washstands for COVSAFE.
 * We use HLDS LiDAR (ToF) to detect hand wash activities.
 * HLDS touch detection software manages all LiDARs and outputs logs including when and where people touches specific area with JSON format.
 * To gather the logs in realtime, we use Fluentd.
