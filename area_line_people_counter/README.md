@@ -18,7 +18,7 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
     * OS: Windows 10 (32/64-bits)
     * CPUs: Depends on the number of ToFs. HLDS says 2 LiDARs/core.
     * MEMs: 8 GB
-    * Disk: Depends on how long you want to keep touch detection logs. But over 1 TB is recommended.
+    * Disk: Depends on how long you want to keep people trucking logs. But over 1 TB is recommended.
 
 # Installation
 ## Install ToF SDK on edge server
