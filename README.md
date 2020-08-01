@@ -1,4 +1,4 @@
-# Edge data collector
+# Edge Data Collector for COVSAFE
 This repository contains sensor data collectors on edge side for COVSAFE.
 * Data collectors monitor and gather data from various types of sensors.
 * We use Fluentd to send the collected data to [IBM Cloud Event Streams](https://www.ibm.com/cloud/event-streams).
