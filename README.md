@@ -114,13 +114,13 @@ A sensor which counts the number of people who washed their hands in a certain p
 ```
 <a name="garbage_bin"></a>
 ## Garbage bin monitor
-A sensor which monitors the distance from the roof of a garbage bin to the top of the accumulated garbages inside. This indicates how much amount of the garbages are accumulated and cloud side service can report when should the garbage bin cleaned. Note that cloud side service should manage which sensor and garbage bin are corresponding. Also, they should manage the distance when the garbage bin is empty to calculate the percentage of accumulated garbages against the amount of the garbage bin.
+A sensor which monitors the distance from the ceiling of a garbage bin to the top of the accumulated garbages inside. This indicates how much amount of the garbages are accumulated and cloud side service can report when should the garbage bin cleaned. Note that cloud side service should manage which sensor and garbage bin are corresponding. Also, they should manage the distance when the garbage bin is empty to calculate the percentage of accumulated garbages against the amount of the garbage bin.
 
 <img src="./img/garbage_bin_monitor.png" width="20%"></img><br/>
 
 ### Elements in the data object
 * garbageBin: The asset id of a targeted garbage bin. The sensor data should be corresponded to the specific garbage bin asset information on cloud side with this id. 
-* distance: A distance from the roof of a garbage bin to the top of the accumulated garbages inside. The unit is cm.
+* distance: A distance from the ceiling of a garbage bin to the top of the accumulated garbages inside. The unit is cm.
 * max_depth: (FOR DEMO ONLY) Depth of each garbage bin in cm.
 * amount_rate: (FOR DEMO ONLY) Percentage of the garbage amount. 
 
