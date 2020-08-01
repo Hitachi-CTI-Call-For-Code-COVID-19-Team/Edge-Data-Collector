@@ -12,10 +12,11 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 * Range sensor: [Seeed TFmini series](https://wiki.seeedstudio.com/Grove-TF_Mini_LiDAR/) (We used TFmini Plus)
   * via FTDI USB-to-TTL converter (ex. [Disifen USB-6P-3V3](https://www.amazon.co.jp/3-3V%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%ABUART%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%80%816%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%98%E3%83%83%E3%83%80%E3%81%A7%E7%B5%82%E7%AB%AF%E3%81%95%E3%82%8C%E3%81%9FFTDI%E3%83%81%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D%E3%80%81Galileo-Gen2%E3%83%9C%E3%83%BC%E3%83%89-BeagleBone-Black-Minnowboard%E3%81%A7%E5%8B%95%E4%BD%9C/dp/B0742CBHKK)).
 * Edge server:
+    * HW: Raspberry Pi 4 Model B
     * OS: Raspberry Pi OS 
-    * We have tested on Raspberry Pi OS (32-bit) Lite (ver. 2020-05-27, kernel 4.19)
-    * Probably compatible with all Linux distributions.
-    * Python 3.x
+        * We have tested on Raspberry Pi OS (32-bit) Lite (ver. 2020-05-27, kernel 4.19)
+        * Probably compatible with all Linux distributions.
+        * Python 3.x
 
 # Installation
 ### Install garbage bin monitor scripts

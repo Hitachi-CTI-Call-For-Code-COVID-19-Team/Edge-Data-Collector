@@ -17,9 +17,11 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 * Edge server:
     * OS: Windows 10 (32/64-bits)
     * CPUs: Depends on the number of ToFs. HLDS says 2 LiDARs/core.
+    * MEMs: 8 GB
+    * Disk: Depends on how long you want to keep touch detection logs. But over 1 TB is recommended.
 
 # Installation
-## Install ToF SDK on management server
+## Install ToF SDK on edge server
 1. Download LiDAR SDK from;  
 [http://hlds.co.jp/product-eng/tofsdk](http://hlds.co.jp/product-eng/tofsdk).
     * We tested v2.3.0 with VisualStudio2015 libraries.
