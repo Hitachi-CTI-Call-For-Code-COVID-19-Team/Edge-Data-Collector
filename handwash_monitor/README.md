@@ -15,6 +15,7 @@ Credentials for IBM Cloud Event Streams and asset information are required durin
 * Edge server:
     * OS: Windows 10 (32/64-bits)
     * CPUs: Depends on the number of ToFs. HLDS says 2 LiDARs/core.
+    * MEMs: 8 GB
 
 # Installation
 ## Install ToF SDK on management server
