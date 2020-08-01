@@ -25,9 +25,7 @@ Currently, COVSAE has 3 types of data collectors to monitor people congestion le
 * Make it possible to use same format even if other type of sensors are introduced.
 
 ## Data from Sensor/edge device to Event Streams
-```plantuml
-"Sensor/Edge" -> "Event Streams" : Send sensor data
-```
+<img src=./img/sensor_to_event_stream.png width=30%>
 
 ### Basic elements in data
 * deviceType: Type of the sensors. One of the area_people_counter, line_people_counter, handwash_monitor or garbage_bin_monitor should be give.
@@ -54,20 +52,7 @@ Currently, COVSAE has 3 types of data collectors to monitor people congestion le
 
 ## Area people counter
 A sensor which counts the number of people in a specific area during a certain period of time.
-```plantuml
-card "Area1 (# of people = 3)" {
- actor foo1
- actor foo2
- actor foo3
-}
-
-card "Area2 (# of people = 4)" {
- actor bar1
- actor bar2
- actor bar3
- actor bar4
-}
-```
+<img src=./img/area_people_counter.png width=50%>
 
 ### Elements in the data object
 * count: The number of people in a specific area during a certain period of time.
